@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("172.18.0.2","root","UAS","Trucorp")
+$link = mysqli_connect("172.18.0.2","root","UAS","Trucorp");
 
 if(!$link){
 echo "Tidak bisa konek". PHP_EOL;
